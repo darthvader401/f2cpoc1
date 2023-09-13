@@ -1,0 +1,56 @@
+ div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ h2{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0a7e0a;
+ }
+  /* Style the form */
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  /* Style the form labels */
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+  }
+
+  /* Style the form inputs */
+  input[type="text"],
+  input[type="file"] {
+    padding: 5px;
+    height: 20px;
+    margin-bottom: 10px;
+    border: 2px solid #a09f9f;
+    border-radius: 7px;
+  }
+
+  /* Style the submit button */
+  button[type="submit"] {
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 270px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color: #4862f5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* Add some spacing between form elements */
+  div > *:not(button) {
+    margin-bottom: 10px;
+  }
